@@ -6,6 +6,8 @@ manifest:
       url-base: https://github.com/sayu-hub
     - name: Dist16384   # あなたのフォーク
       url-base: https://github.com/Dist16384
+    - name: caksoylar  # <-- RGB LED
+      url-base: https://github.com/caksoylar  
 
   projects:
     - name: zmk
@@ -17,6 +19,10 @@ manifest:
       remote: Dist16384
       revision: main
       path: modules/zmk-pmw3610-driver
+    - name: zmk-rgbled-widget
+      remote: caksoylar
+      revision: main
+      revision: v0.3
 
   self:
     path: config
