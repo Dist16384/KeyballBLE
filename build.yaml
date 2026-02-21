@@ -19,9 +19,9 @@
 ---
 include:
  - board: seeeduino_xiao_ble
-   shield: KeyballBLE_R
+   shield: KeyballBLE_R rgbled_adapter
    snippet: studio-rpc-usb-uart
  - board: seeeduino_xiao_ble
-   shield: KeyballBLE_L
+   shield: KeyballBLE_L rgbled_adapter
  - board: seeeduino_xiao_ble
    shield: settings_reset
